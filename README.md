@@ -1,4 +1,4 @@
-<h1 align="center"> NLW  </h1>
+<h1 align="center"> NLW Copa 2022 </h1>
 
 <p align="center">
 Para ver o projeto final rodando, clique no link: https://nlw-copa-calendario.vercel.app/ <br>
