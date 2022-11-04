@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root{
+    --card-color-primary: #f7dd43;
+    --card-color-border-title: #746615;
+    --card-color-background: #1d1c19;
+}
+
 ul{
     list-style: none;
 }
@@ -10,8 +16,9 @@ ul{
 body{
     background-color: #121214;
     background-image: url(./assets/fundo.svg);
-    background-position-x: center;
-    background-position-y: -715px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body * {
@@ -37,8 +44,8 @@ header{
 .card{
     padding: 32px 23px;
     text-align: center;
-    background: #1d1c19;
-    border-bottom: 2px solid #f7dd43;
+    background: var(--card-color-background);
+    border-bottom: 2px solid var(--card-color-primary);
     border-radius: 6px;
 }
 
@@ -48,7 +55,7 @@ header{
     justify-content: center;
     align-items: center;
 
-    border: 1px solid #746615;
+    border: 1px solid var(--card-color-border-title);
     border-radius: 6px;
     padding: 8px 16px;
 
@@ -56,7 +63,7 @@ header{
     margin-inline: auto;
     margin-bottom: 53px;
 
-    color: #F7DD43
+    color: #f7dd43;
 }
 
 .card h2 span{
@@ -89,4 +96,23 @@ header{
 .card ul li + li {
     padding-top: 24px;
     border-top: 1px solid #323238;
+}
+
+.card ul li strong:hover,
+.card ul li img:hover{
+    transform: scale(1.1);
+}
+
+.card ul li strong,
+.card ul li img{
+    transition: transform 0.3s;
+}
+
+@media (min-width: 400px){
+    #cards{
+        max-width: 670px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

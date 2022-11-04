@@ -19,13 +19,8 @@ function creatCard(date, day, games){
     `
 }
 
-document.querySelector("#app").innerHTML = `
-    <header>
-        <img src="./assets/logo.svg" alt="logo da NLW">
-    </header>
-
-    <main id="cards">
-        ${creatCard("24/11", "Quinta", createGame('brasil', '16:00', 'camaroes'))}
-        ${creatCard("24/11", "Quinta", createGame('brasil', '08:00', 'camaroes') + createGame('brasil', '13:00', 'camaroes'))}
-    </main>
-`;
+document.querySelector("#cards").innerHTML = 
+    creatCard("24/11", "Quinta", createGame('brasil', '16:00', 'camaroes')) +
+    creatCard("24/11", "Quinta", createGame('brasil', '08:00', 'camaroes') + 
+    createGame('brasil', '13:00', 'camaroes'))
+;
