@@ -1,7 +1,7 @@
 <h1 align="center"> NLW  </h1>
 
 <p align="center">
-Para ver o projeto final rodando, clique no link : https://explorer-lab-six-rho.vercel.app/ <br>
+Para ver o projeto final rodando, clique no link: https://nlw-copa-calendario.vercel.app/ <br>
 Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br>
 
 </p>
@@ -9,7 +9,6 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -33,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O calendário da copa é uma projeto onde mostra os dias, horarios da Copa de 2022.
+O calendário da copa é uma projeto onde mostra os dias, horarios e os confrontos da Copa de 2022.
 
 
 ## :memo: Licença
