@@ -11,8 +11,9 @@ body{
     background-color: #121214;
     background-image: url(./assets/fundo.svg);
     background-position-x: center;
-    background-position-y: 55%;
+    background-position-y: -715px;
 }
+
 body * {
     font-family: 'Roboto', sans-serif;
 }
@@ -24,6 +25,13 @@ body * {
 
 header{
     margin-bottom: 63px;
+    text-align: center;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .card{
